@@ -1,0 +1,10 @@
+<p>
+  my-pokemon works!
+</p>
+
+<ul>
+    <li *ngFor="let tn of nameList$ | async">
+        <span>{{tn.id}} - {{tn.name}}</span>
+    </li>
+    
+</ul>
